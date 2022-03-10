@@ -29,7 +29,7 @@ Tensorflow-gpu == 1.13.1
 
 tensorlayer == 1.10.1
 
-To run the code, an NVIDIA GeForce RTX2080 GPU video card with 10GB video memory is required. 
+To run the code, an NVIDIA GeForce RTX3080 GPU video card with 10GB video memory is required. 
 
 Software development environment should be any Python integrated development environment used on an NVIDIA video card. 
 
