@@ -39,7 +39,7 @@ Programming language: Python 3.6.
 2.How to use？
 
 
-First, preprocess the image: Cut the shale slice into 64*64*64 size pictures. Each training image consists of 64 pictures of size 64*64, stored in a separate folder. Then use use scripts/preparedata.py to convert the image into .npy format.
+First, preprocess the image: Cut the shale slice into 64 * 64 * 64 size pictures. Each training image consists of 64 pictures of size 64*64, stored in a separate folder. Then use use scripts/preparedata.py to convert the image into .npy format.
 
 
 Secondly, set the network parameters such as batchsize, learning rate and storage location. The executable .py file of IWGAN-GP, the path is: IWGAN-GP/IWGAN-GP.py. After configuring the parameters and environment, you can run directly: python IWGAN-GP.py
