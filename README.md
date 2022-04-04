@@ -45,5 +45,5 @@ First, preprocess the image: Cut the porous media slice into 64 * 64 * 64 size p
 Secondly, set the network parameters such as batchsize, learning rate and storage location. The executable .py file of IWGAN-GP, the path is: IWGAN-GP/IWGAN-GP.py. After configuring the parameters and environment, you can run directly: python IWGAN-GP.py
 
 
-Finally, in IWGAN-GP/savepoint/Test, find the loss images during the training process and the .npy format of the shale three-dimensional structure images of different rounds. Use scripts/loadnpy to convert .npy to .txt format for later analysis and processing.
+Finally, in IWGAN-GP/savepoint/Test, find the loss images during the training process and the .npy format of the porous media three-dimensional structure images of different rounds. Use scripts/loadnpy to convert .npy to .txt format for later analysis and processing.
 
